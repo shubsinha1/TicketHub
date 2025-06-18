@@ -19,7 +19,7 @@ const events = [
         date: "2025-08-20",
         time: "2:00 PM",
         venue: "Moin-ul-haq Stadium",
-        price: 1000,
+        price: 1500,
         image: "cricket-match.jpg.png",
         description: "Watch the thrilling cricket match between top teams.",
         availableTickets: 150
@@ -31,7 +31,7 @@ const events = [
         date: "2025-09-10",
         time: "7:30 PM",
         venue: "Gyan Bhawan",
-        price: 1000,
+        price: 800,
         image: "theatre-play.jpg.jpeg",
         description: "Experience the magic of Broadway with this award-winning production.",
         availableTickets: 80
