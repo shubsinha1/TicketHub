@@ -8,7 +8,7 @@ const events = [
         time: "7:00 PM",
         venue: "Bapu Sabhagar",
         price: 1000,
-        image: "./images/Bapu-Sabhagar.jpg.png",
+        image: "Bapu-Sabhagar.jpg.png",
         description: "Witness the ultimate showdown ..",
         availableTickets: 100
     },
@@ -20,7 +20,7 @@ const events = [
         time: "2:00 PM",
         venue: "Moin-ul-haq Stadium",
         price: 1000,
-        image: "./images/cricket-match.jpg.png",
+        image: "cricket-match.jpg.png",
         description: "Watch the thrilling cricket match between top teams.",
         availableTickets: 150
     },
@@ -32,7 +32,7 @@ const events = [
         time: "7:30 PM",
         venue: "Gyan Bhawan",
         price: 1000,
-        image: "./images/theatre-play.jpg.jpeg",
+        image: "theatre-play.jpg.jpeg",
         description: "Experience the magic of Broadway with this award-winning production.",
         availableTickets: 80
     }
