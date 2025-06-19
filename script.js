@@ -42,10 +42,6 @@ const events = [
 const eventsGrid = document.getElementById('eventsGrid');
 const searchInput = document.querySelector('.search-container input');
 const categoryCards = document.querySelectorAll('.category-card');
-const loginBtn = document.querySelector('.login-btn');
-const signupBtn = document.querySelector('.signup-btn');
-const loginModal = document.getElementById('loginModal');
-const signupModal = document.getElementById('signupModal');
 const eventModal = document.getElementById('eventModal');
 const closeButtons = document.querySelectorAll('.close-modal');
 const hamburger = document.querySelector('.hamburger');
@@ -454,24 +450,3 @@ function setupCategoryFilters() {
     });
 }
 
-// Handle login
-function handleLogin(e) {
-    e.preventDefault();
-    const email = e.target.querySelector('input[type="email"]').value;
-    const password = e.target.querySelector('input[type="password"]').value;
-    
-    // In a real application, this would make an API call to authenticate
-    console.log('Login attempt:', { email, password });
-    hideAllModals();
-}
-
-// Handle signup
-function handleSignup(e) {
-    e.preventDefault();
-    const formData = new FormData(e.target);
-    const userData = Object.fromEntries(formData.entries());
-    
-    // In a real application, this would make an API call to register the user
-    console.log('Signup attempt:', userData);
-    hideAllModals();
-} 
