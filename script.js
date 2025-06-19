@@ -410,8 +410,8 @@ function showSuccessMessage() {
                 <div class="success-message">
                     <i class="fas fa-check-circle"></i>
                     <h2>Booking Successful!</h2>
-                    <p>Your tickets have been booked successfully.</p>
-                    <p>A confirmation email has been sent to your registered email address.</p>
+                    <p>Your tickets & payment method have been selecteed successfully.</p>
+                    <p>A payment link has been sent to your registered email address.Open the link to complete the payment.</p>
                     <button type="button" onclick="this.closest('.modal').remove()">Close</button>
                 </div>
             </div>
